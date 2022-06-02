@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+}
+
+.title {
+  margin-bottom: 5em;
+  position: fixed;
+  transform: translate(2rem, -4rem);
+  font-size: 3rem;
+  color: rgb(37, 37, 48);
+}
+
+strong {
+  color: royalblue;
+  margin-left: 0.1rem;
+  text-decoration: underline;
+}
+
+main {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.weather-info {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  max-width: 30rem;
+  border-radius: 2rem;
+  box-shadow: 0rem 1rem 2rem rgba(67, 67, 67, 0.2);
+}
+
+.temperature {
+  font-size: 7rem;
+  margin-right: 2rem;
+}
+
+.city {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: rgb(65, 160, 255);
+}
+
+.wind {
+  font-size: 1.5rem;
+  color: rgb(35, 87, 139);
+}
+
+.search {
+  margin-top: 3rem;
+  padding: 2rem 15rem 2rem 2rem;
+  max-width: 32rem;
+  border-radius: 3rem;
+  border: none;
+  box-shadow: 0rem 1rem 2rem rgba(67, 67, 67, 0.2);
+}
+
+.search:focus {
+  outline: none;
+}
+
+input {
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.forecast {
+  margin-top: 2rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.day {
+  background-color: white;
+  padding: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0rem 1rem 2rem rgba(67, 67, 67, 0.2);
+  text-align: center;
+}
